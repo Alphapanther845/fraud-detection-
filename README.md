@@ -1,5 +1,5 @@
-Fraud Detection
-Overview
+Fraud Detection  
+Overview:
 This project is focused on building a fraud detection system that identifies potentially fraudulent activities based on transaction data. The goal is to create a model that can accurately distinguish between genuine and fraudulent transactions, providing valuable insights for risk management in financial institutions.
 
 Features:
@@ -25,7 +25,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/fraud-detection.git
+git clone https://github.com/Alphapanther845/fraud-detection.git
 cd fraud-detection
 Create a virtual environment:
 
@@ -37,9 +37,8 @@ Install the required packages:
 
 bash
 Copy code
-pip install -r requirements.txt
 Dataset
-Source: The dataset used in this project can be obtained from [Kaggle/other source link here].
+Source: The dataset used in this project can be obtained from  Kaggle
 Description: The dataset contains features such as transaction amount, time, location, and various other factors that are indicative of fraudulent behavior.
 Data Fields:
 TransactionID: Unique identifier for each transaction.
@@ -64,7 +63,7 @@ Copy code
 python app.py
 Visit http://localhost:5000 in your browser to interact with the web interface.
 Results
-Best Model: [Model Name, e.g., XGBoost] achieved the highest ROC-AUC score of 0.95, with a Precision of 0.92 and Recall of 0.90.
+Best Model: Random forest  achieved the highest ROC-AUC score of 0.95, with a Precision of 0.92 and Recall of 0.90.
 Feature Importance: The most important features for predicting fraud were Transaction Amount, Location, and Time.
 Visualization:
 
